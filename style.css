@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-weight: 400;
+    background-color: #38980b;
+    text-align: center;
+    height: 10vh;
+    padding: 3vh 0 0 0;
+    color: #fff;
+}
+input {
+    width: 20vw;
+    border: 1px black solid;
+    height: 5vh;
+    border-radius: 5px;
+    color: #38980b;
+}
+label, input, button {
+    margin-left: 10px;
+    text-align: center;
+}
+button {
+    border: 1px #000 solid;
+    border-radius: 5px;
+    background-color: #38980b;
+    color: #fff;
+    height: 5vh;
+    width: 10vw;
+}
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+    input {
+        width: 20vw;
+        height: 2vh;
+        transform: scale(200%);
+        margin: 1.5vh 0 0 15vw;
+    }
+    label {
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 75px;
+        padding: 2vh 0 0 0;
+    }
+    button {
+        transform: scale(200%);
+        height: 1.5vh;
+        width: 12vw;
+        margin: 2.5vh 0 0 10vw;
+    }
+}
