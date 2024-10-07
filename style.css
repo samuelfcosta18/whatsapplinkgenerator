@@ -29,24 +29,31 @@ button {
     height: 5vh;
     width: 10vw;
 }
+.mobile {
+    display: none;
+}
 @media only screen and (max-device-width: 480px) and (orientation: portrait) {
     input {
         width: 20vw;
         height: 2vh;
-        transform: scale(200%);
-        margin: 1.5vh 0 0 15vw;
+        transform: scale(300%);
+        margin: 2vh 0 0 25vw;
     }
     label {
         font-size: 40px;
+        margin-left: 4vw;
     }
     h1 {
         font-size: 75px;
         padding: 2vh 0 0 0;
     }
     button {
-        transform: scale(200%);
+        transform: scale(300%);
         height: 1.5vh;
         width: 12vw;
-        margin: 2.5vh 0 0 10vw;
+        margin: 4vh 0 0 17vw;
+    }
+    .mobile {
+        display: block;
     }
 }
