@@ -7,7 +7,7 @@
 </ul>
 
 <ol>
-  <li>Open the site using this link.</li>
+  <li>Open the site using this <a target="_blank" href="https://samuelfcosta18.github.io/whatsapplinkgenerator/">link</a>.</li>
   <li>Insert a phone number with the country and region identifiers in the first input.</li>
   <li>Insert the message content on the second input.</li>
   <li>Click on the <b>Send Message</b> button to send the message</li>
